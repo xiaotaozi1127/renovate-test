@@ -3,9 +3,13 @@
   "extends": ["config:js-app", ":prHourlyLimitNone", ":prConcurrentLimitNone"],
   "packageRules": [
     {
-      "excludePackagePrefixes": ["moment"],
       "updateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
+      "requiredStatusChecks": null
+    },
+    {
+      "matchPackageNames": ["moment"],
+      "automerge": false,
       "requiredStatusChecks": null
     }
   ],
