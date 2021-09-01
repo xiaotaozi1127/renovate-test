@@ -1,0 +1,16 @@
+{
+  "name": "npm-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "i18next": "18.0.0",
+    "moment": "1.7.2",
+    "react-i18next": "11.7.0"
+  }
+}

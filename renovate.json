@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:js-app", ":prHourlyLimitNone", ":prConcurrentLimitNone"],
+  "packageRules": [
+    {
+      "excludePackagePrefixes": ["moment"],
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true,
+      "requiredStatusChecks": null
+    }
+  ],
+  "rebaseWhen": "auto"
+}
