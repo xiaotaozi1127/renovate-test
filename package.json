@@ -11,6 +11,6 @@
   "dependencies": {
     "i18next": "18.0.1",
     "moment": "1.7.2",
-    "react-i18next": "11.7.0"
+    "react-i18next": "11.11.4"
   }
 }
