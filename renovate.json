@@ -8,7 +8,7 @@
       "requiredStatusChecks": null
     },
     {
-      "matchPackageNames": ["moment"],
+      "matchPackagePrefixes": ["mom"],
       "automerge": false,
       "requiredStatusChecks": null
     }
