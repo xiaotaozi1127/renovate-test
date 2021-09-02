@@ -8,7 +8,7 @@
       "requiredStatusChecks": null
     },
     {
-      "matchPackagePrefixes": ["mom"],
+      "matchPackagePrefixes": ["@m"],
       "automerge": false,
       "requiredStatusChecks": null
     }
