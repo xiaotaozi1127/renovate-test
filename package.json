@@ -11,7 +11,7 @@
   "dependencies": {
     "@m-ld/m-ld-spec": "0.7.0",
     "@mutant-ws/m": "2.6.0",
-    "core-js": "2.6.12",
+    "core-js": "3.38.1",
     "i18next": "20.6.1",
     "moment": "1.7.2",
     "react-i18next": "11.18.6"
